@@ -1,4 +1,4 @@
-package com
+package gocom
 
 func KeysOf[K comparable, V any](m map[K]V) []K {
 	keys := make([]K, 0, len(m))

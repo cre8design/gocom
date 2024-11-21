@@ -1,4 +1,4 @@
-package com
+package gocom
 
 func IfElse[T any](cond bool, t, f T) T {
 	if cond {
